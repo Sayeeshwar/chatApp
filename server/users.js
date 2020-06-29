@@ -32,6 +32,4 @@ const getUser= (id) => {
 }
 
 
-const getUsersInRoom= () => {
-    
-}
+const getUsersInRoom= (room) => users.filter((user)=> user.room==room);
